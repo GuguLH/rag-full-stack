@@ -12,3 +12,6 @@ wheels/
 models/
 
 .idea
+
+volumes/
+data/
