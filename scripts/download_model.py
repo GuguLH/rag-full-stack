@@ -2,10 +2,10 @@ from modelscope import snapshot_download
 import os, shutil
 
 # 目标目录
-target_dir = r"../models/chatglm3-6b-32k"
+target_dir = r"../models/gte-large-zh"
 
 # 下载模型到默认缓存
-model_cache_dir = snapshot_download('ZhipuAI/chatglm3-6b-32k')
+model_cache_dir = snapshot_download('AI-ModelScope/gte-large-zh')
 
 # 复制模型到目标目录
 print(f"正在复制模型到 {target_dir} ...")
