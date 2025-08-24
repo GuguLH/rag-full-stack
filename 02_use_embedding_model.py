@@ -95,7 +95,7 @@ for i in range(1, 4):
     print(input_texts[0], input_texts[i], cos_sim(embeddings[0], embeddings[i]))
 
 # 4 embedding操作
-# 余弦相似度
+# 余弦相似度: [-1, 1], 越大越相似, A = B时相似度为1
 a = embeddings[0]
 b = embeddings[2]
 from numpy import dot
