@@ -41,6 +41,8 @@ dependencies = [
     "langchain-experimental>=0.3.4",
     "addict>=2.4.0",
     "datasets>=4.0.0",
+    "dotenv>=0.9.9",
+    "langchain-openai>=0.3.32",
 ]
 
 [[tool.uv.index]]
